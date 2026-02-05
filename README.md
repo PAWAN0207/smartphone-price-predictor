@@ -8,7 +8,7 @@
 An intelligent Machine Learning web application that predicts a smartphone's **Final Price** based on its specifications (RAM, Storage, Brand, etc.). This tool helps users determine if a smartphone is "Value-for-Money" or overpriced based on historical market data.
 
 ## 🚀 Live Demo
-🔗 **[Check out the Live App here](https://YOUR-APP-LINK.streamlit.app/)** *(Note: Replace the link above with your actual Streamlit URL after deployment)*
+🔗 **[Check out the Live App here](https://smartphone-price-predictor-zyntvkny7hycn257y3l3pd.streamlit.app/)**
 
 ## ✨ Key Features
 - **Smart Prediction:** Powered by a **Random Forest Regressor** for high-accuracy price estimations.
