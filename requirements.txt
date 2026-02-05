@@ -1,0 +1,16 @@
+# Data Analysis
+pandas
+numpy
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+joblib
+
+# UI & API
+streamlit
+requests
+
+# Notebook support
+ipykernel
