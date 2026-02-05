@@ -1,57 +1,33 @@
-Smartphone Value for Money Predictor
-==============================
+# 📱 Smartphone Value-for-Money Predictor
 
-ML-powered app to predict whether a smartphone is value for money based on specs and price.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-FF4B4B?style=for-the-badge&logo=streamlit)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Model-F7931E?style=for-the-badge&logo=scikitlearn)
+![Machine Learning](https://img.shields.io/badge/ML-Random%20Forest-green?style=for-the-badge)
 
-Project Organization
-------------
+An intelligent Machine Learning web application that predicts a smartphone's **Final Price** based on its specifications (RAM, Storage, Brand, etc.). This tool helps users determine if a smartphone is "Value-for-Money" or overpriced based on historical market data.
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+## 🚀 Live Demo
+🔗 **[Check out the Live App here](https://YOUR-APP-LINK.streamlit.app/)** *(Note: Replace the link above with your actual Streamlit URL after deployment)*
 
+## ✨ Key Features
+- **Smart Prediction:** Powered by a **Random Forest Regressor** for high-accuracy price estimations.
+- **End-to-End Pipeline:** Utilizes Scikit-Learn `Pipelines` to automate Data Cleaning, Scaling, and Encoding.
+- **Realistic Pricing:** Implements **Log-Transformation** techniques to handle price outliers and provide realistic estimates for budget devices.
+- **Interactive UI:** A clean, responsive dashboard built with Streamlit.
 
---------
+## 🛠️ Tech Stack
+- **Languages:** Python
+- **Data Analysis:** Pandas, NumPy
+- **Machine Learning:** Scikit-Learn (Random Forest, Preprocessing Pipelines)
+- **Deployment:** GitHub, Streamlit Cloud
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+## 📂 Project Structure
+```text
+├── app.py                     # Streamlit web application script
+├── smartphone_model.pkl        # Pre-trained ML Pipeline (Joblib)
+├── requirements.txt            # Project dependencies
+├── notebooks/                  # Jupyter notebooks for Exploratory Data Analysis (EDA)
+│   └── Model_Training.ipynb
+├── .gitignore                  # Files to be ignored by Git (e.g., venv/)
+└── README.md                   # Project Documentation
